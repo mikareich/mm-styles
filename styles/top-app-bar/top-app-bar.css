@@ -1,0 +1,21 @@
+
+.mm-styles_top-app-bar {
+    height: 9%;
+    width: 100%;
+    background-color: var(--mm-styles-primary, #3949ab);
+    color: var(--mm-styles-secondary, #ffffff);
+    box-shadow: 1px 1px 5px black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.mm-styles_top-app-bar>div{
+    padding: 5px;
+}
+.mm-styles_top-app-bar>[data-header-title]{
+    text-align: center;
+    font-size: 20pt;
+    
+}
+.mm-styles_top-app-bar>[data-header-option].mm-styles_right{
+    grid-column: end;
+}
