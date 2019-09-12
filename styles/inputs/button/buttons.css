@@ -1,0 +1,33 @@
+/* Farben */
+
+:root {
+    --mm-style-primary: #3949ab;
+    --mm-style-secondary: #ffffff;
+    --mm-style-onerror: #c62828;
+    --mm-style-light: #6f74dd;
+}
+
+button.mm-styles_button, button.mm-styles_button_outline {
+    outline: none;
+    border: none;
+    color: var(--mm-style-primary, black);
+    background: var(--mm-style-secondary);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 11pt;
+    transition: 0.5s all ease;
+    color: var(--mm-style-primary);
+}
+
+ button.mm-styles_button_outline:hover {
+    z-index: 1;
+    box-shadow: 0.75px 0.75px 4px black;
+    background: var(--mm-style-secondary, white)
+}
+
+button.mm-styles_button_outline {
+    background: none;
+    z-index: 1;
+    border: 1px solid var(--mm-style-primary, black);
+    box-shadow: 1px 1px 5px black;
+}

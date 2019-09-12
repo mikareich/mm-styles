@@ -1,0 +1,47 @@
+/* Farben */
+
+:root {
+    --mm-style-primary: #3949ab;
+    --mm-style-secondary: #ffffff;
+    --mm-style-onerror: #c62828;
+    --mm-style-light:#6f74dd;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html{font-family: "Roboto", sans-serif}
+ol.mm-styles_list {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li.mm-styles_list-li {
+    list-style-type: none;
+    padding: 8px;
+    transition: all 0.5s ease;
+    border: 1px solid #ffffff;
+    text-align: left;
+    margin: 10px;
+   
+}
+
+li.mm-styles_list-title {
+    list-style-type: none;
+    text-align: center;
+    height: 300%;
+}
+
+li.mm-styles_list-title>* {
+    font-weight: normal;
+}
+
+ol.mm-styles_list>hr {
+    width: 50%;
+    margin: 5px auto;
+    border: 0.5px solid #000000;
+}
+
+li.mm-styles_list-li:hover {
+    border-radius: 2vh;
+    border: 1px solid var(--mm-style-primary);
+}
