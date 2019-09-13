@@ -1,0 +1,14 @@
+/* Farben */
+
+:root {
+    --mm-style-primary: #3949ab;
+    --mm-style-secondary: #ffffff;
+    --mm-style-onerror: #c62828;
+    --mm-style-light: #7f62ff    ;
+}
+
+/* Schrift */
+html, body{
+    font-family: "Roboto", sans-serif;
+    
+}

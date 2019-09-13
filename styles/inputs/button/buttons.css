@@ -1,11 +1,4 @@
-/* Farben */
 
-:root {
-    --mm-style-primary: #3949ab;
-    --mm-style-secondary: #ffffff;
-    --mm-style-onerror: #c62828;
-    --mm-style-light: #6f74dd;
-}
 
 button.mm-styles_button, button.mm-styles_button_outline {
     outline: none;
